@@ -3,7 +3,6 @@
 
 # In[ ]:
 
-
 import numpy as np
 import scipy.spatial
 
@@ -92,4 +91,3 @@ def bws(x, u, v, m):
 
 methods = [pc, npc, fhv, fs, xb, bh, bws]
 targets = "max max min min min min max".split()
-
